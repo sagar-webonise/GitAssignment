@@ -1,0 +1,4 @@
+GitAssignment
+=============
+
+Understanding git 
