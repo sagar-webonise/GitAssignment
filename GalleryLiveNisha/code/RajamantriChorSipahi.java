@@ -4,8 +4,7 @@ public class RajamantriChorSipahi extends Activity {
 	// TODO Auto-generated method stub
 	super.onPostResume();
     }
-    
-    
+   
     public boolean onKeyDown(int keyCode, KeyEvent event) {
 	AlertDialog dialog = new AlertDialog.Builder(this).create();
 	dialog.setTitle("Exit game!");
@@ -49,8 +48,7 @@ public class RajamantriChorSipahi extends Activity {
 	
 	super.onLowMemory();
     }
-    
-    
+
     protected void onPause() {
 	// TODO Auto-generated method stub
 	super.onPause();
@@ -98,9 +96,6 @@ public class RajamantriChorSipahi extends Activity {
     	super.onResume();
     	
     }
-    
-    
-    
     
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -234,12 +229,8 @@ public class RajamantriChorSipahi extends Activity {
 					    }
 					});
 				    
-				    
-				    
-				    
-				    
-				}
 				
+				}
 				
 				public void makeGuess(){
 				    
@@ -383,9 +374,9 @@ public class RajamantriChorSipahi extends Activity {
 			    }
 			}
 		    });
-						    }
 						    });
 				}//end upper for
+						    }
 				for(int i=0;i<4;i++) 
 				    btnPod[i].setText("");
 				
@@ -569,9 +560,7 @@ public class RajamantriChorSipahi extends Activity {
 				}
 							}
 						}
-					    
 					
-				
 			    }
 			    
 			}
@@ -590,5 +579,5 @@ public class RajamantriChorSipahi extends Activity {
 			
 			}
 		}
-		
+		//End of programe
 
